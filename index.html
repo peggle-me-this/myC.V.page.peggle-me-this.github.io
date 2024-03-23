@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags for character set, viewport, and description -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A personal website showing my experiences, skills, passions, and interests">
+    
+    <!-- Link to the external stylesheet -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <title>Bronwyn Barnes - Personal Website</title>
+    
+    <!-- Styles section -->
+    <style>
+        /* CSS styles go here */
+        body {
+            background-image: url('Img_background.jpg');
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Do not repeat the background image */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
+        header {
+            background-color: goldenrod;
+            color: #fff;
+            text-align: center !important;
+            width: 100%;
+            height: 120px;
+            
+        }
+        h1 {
+            margin: 0;
+            font-size: 40px;
+            font-family: Georgia, serif;
+            padding: 20px;
+            text-align: center !important;
+        }
+        h2 {
+            margin: 0;
+            font-size: 36px;
+            font-family: Georgia, serif;
+            color: antiquewhite;
+            padding-top: 20px;
+            padding-left: 50px !important;
+            padding-bottom: 20px;
+        }
+        h3 {
+            margin: 0;
+            font-size: 23px;
+            font-family: Georgia, serif;
+            color: teal;
+            padding-top: 20px;
+            padding-left: 50px !important;
+            padding-bottom: 20px;
+        }
+
+        .description {
+            list-style-type: none;
+            padding-left: 50px;
+            color: goldenrod;
+            font-size: 18px !important;
+            font-family: Verdana, Tahoma, sans-serif;
+            padding-top: 15px !important;
+        }
+        .contact4 {
+            padding-bottom: 50px;
+        }
+        .intro-text{
+            padding-top: 10px;
+            text-align: center;
+        }
+        #about-me p {
+            padding-left: 50px !important;
+            padding-right: 50px !important;
+        }
+
+        p {
+            margin: 0;
+            font-size: 15px;
+            font-family: Verdana, Tahoma, sans-serif;
+            color: antiquewhite;
+            padding-left: 50px;
+            padding-bottom: 15px;
+        }
+
+        img {
+            max-width: 270px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            padding-top: 30px;
+            padding-left: 45px;
+        }
+        .about {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .contact4 a {
+            color: teal;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 50px;
+            color: antiquewhite;
+            font-family: Verdana, Tahoma, sans-serif;
+            font-size: 15px;
+            padding-top: 7px;
+        }
+        button {
+            background-color: darkred;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            padding-left: 50px;
+        }
+        button:hover {
+            background-color: teal;
+        }
+        button.manager {
+            padding-bottom: 70px;
+        }
+        .last-line {
+            padding-bottom: 75px;
+        }
+        footer {
+            background-color: goldenrod;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hey, I'm Bronwyn Barnes,</h1>
+        <p id="intro-text">Software Engineer in the making</p>
+    </header>
+    
+    <!-- Section for an image, in this case, a self-portrait -->
+    <section id="image">
+        <img src="americancomic_edit.jpg" alt="Cartoon Self Portrait">
+    </section>
+
+    <!-- About Me Content -->
+    <section id="about-me">
+        <h2 class="about">A bit about me,</h2>
+        <!-- Bio paragraphs -->
+        <p id="bio1"> A self-proclaimed food geek, gamer, and nerd, I find joy in all creations in the kitchen and 
+            immersing myself in gaming worlds. I have found a new love for programming 
+            and I am investigating all I can about the vast domain of coding and technology.</p>
+        <br>
+        <p id="bio2"> With a passion for education, I've spent years shaping young minds and fostering a love for 
+            learning. Drawn to the ever-changing world of technology, I decided to explore coding, seeing 
+            it as a way to expand my creative horizons. The shift from the classroom to programming has been 
+            an exciting journey, fueled by a desire to understand and actively contribute to the digital realm. 
+            I have found joy in the blend of teaching experience and coding skills, not just mastering a 
+            new language but developing digital solutions and exploring the endless possibilities of coding. 
+            In bridging education and technology, my problem-solving skills acquired through teaching integrate 
+            effectively with coding, unlocking creativity, and new diverse opportunities.</p>
+        <br>
+        <p id="bio3"> Some of my other interests, which I feel strongly about, include personal growth, hiking, 
+            and gardening. Dedicating time to my growth and learning is very important to me. Exploring nature and 
+            exercising through hiking and cultivating beautiful spaces and food through gardening. I believe 
+            a holistic perspective is the overall nourishment of human life. Join me on this journey of 
+            exploration and growth, where each day brings new opportunities to learn, create, and inspire. </p>
+        <br>
+    </section>
+
+    <section>
+        <!-- Contact Details Section -->
+        <section id="contact-details">
+            <h2 class="contact-heading">Contact Details</h2>
+            <!-- Contact details -->
+            <p class="contact1">Name: Bronwyn Barnes</p>
+            <p class="contact2">Email: bronwyn.d.barnes@gmail.com</p>
+            <p class="contact3">Phone: +27 82 211 5056</p>
+            <p class="contact4">LinkedIn: <a href="https://www.linkedin.com/in/bronwyn-barnes-08b022277/" target="_blank">Bronwyn's LinkedIn</a></p>
+        </section>
+    </section>
+
+    <!-- Skills and Education Section -->
+    <section id="skills-and-education">
+        <!-- Skills Section -->
+        <section id="skills-section">
+            <h2 id="skills-heading">Skills</h2>
+            <div id="skills-details" style="display: none;">
+                <!-- Skills details -->
+                <ul> 
+                    <li>Project Management - 10+ years</li>
+                    <li>Classroom Management - 10+ years</li>
+                    <li>Curriculum Development - 10+ years</li>
+                    <li>Problem Solving - 10+ years</li>
+                    <li>Effective Communication - 10+ years</li>
+                    <li>Customer Service - 10+ years</li>
+                    <li>Strong Teamwork Skills - 10+ years</li>
+                </ul>
+            </div>
+            <button onclick="toggleSection('skills-details')">More/Less</button>
+        </section>
+        
+        <!-- Software Development Technologies Section -->
+        <section id="software-dev-technologies">
+            <h2 id="skills2-heading">Introduction to Software Development Technologies</h2>
+            <div id="skills2-details" style="display: none;">
+                <!-- Skills details -->
+                <ul> 
+                    <li>Python Programming</li>
+                    <li>Django</li>
+                    <li>Bootstrap</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>SQL</li>
+                    <li>Git and GitHub</li>
+                </ul>
+            </div>
+            <button onclick="toggleSection('skills2-details')">More/Less</button>
+        </section>
+        
+        <!-- Education Section -->
+        <section id="education-section">
+            <h2 id="edu-heading">Education</h2>
+            <div id="education-details" style="display: none;">
+                <!-- Education details -->
+                <p>Software Engineer Bootcamp</p>
+                <p>School: Hyperion Dev</p>
+                <p>Year of Completion: Ongoing - 2024</p>
+                <br>
+                <p>Qualification: NQF5</p>
+                <p>School: College of Modern Montessori</p>
+                <p>Year of Completion: 2017</p>
+                <br>
+                <p>Qualification: Matric</p>
+                <p>School: Intec College</p>
+                <p>Year of Completion: 2005</p>
+                <br>
+                <p>High School</p>
+                <p>School: Greenside High</p>
+                <p>Years Attended: 2000 - 2004</p>
+            </div>
+            <button onclick="toggleEducation('education-details')">More/Less</button>
+        </section>
+
+
+        <section>
+             <!-- Work Experience Section -->
+    <section id="work-experience">
+        <h2 id="work">Work Experience</h2>
+    
+        <!-- Work experience details - Pre-Primary -->
+        <div class="work-entry">
+            <h3>Pre-Primary Principal/ Directress</h3>
+            <p>Duration: 01/2022 - 12/2023</p>
+            <button onclick="toggleWorkExperience('pre-primary')">More/Less</button>
+            <div id="work-experience-details-pre-primary" style="display: none;">
+                <p class="description">Description:</p>
+                <ul>
+                    <li>Oversaw daily operations, ensuring a safe, productive learning environment.</li>
+                    <li>Actively involved in teaching responsibilities while developing and implementing school policies.</li>
+                    <li>Cultivated positive relationships with parents, students, and the community.</li>
+                    <li>Managed budgeting, financial planning, and efficient resource allocation.</li>
+                    <li>Collaborated on curriculum development, ensuring alignment with educational standards.</li>
+                    <li>Implemented marketing strategies, including social media and promotional activities.</li>
+                    <li>Utilized technology for efficient record-keeping and communication.</li>
+                </ul>
+            </div>
+        </div>
+              
+        <!-- Work experience details - Montessori -->
+        <div class="work-entry">
+            <h3>Montessori Directress Preprimary</h3>
+            <p>Duration: 08/2010 - 12/2023</p>
+            <button onclick="toggleWorkExperience('montessori')">More/Less</button>
+            <div id="work-experience-details-montessori" style="display: none;">
+                <p class="description">Description:</p>
+                <ul>
+                    <li>Developed positive relationships with both children and parents.</li>
+                    <li>Established and enforced behavior rules, provided clear guidelines for children in classrooms.</li>
+                    <li>Ensured fundamental needs were met and offered diverse materials for learning and exploration.</li>
+                    <li>Managed classroom activities, organizing lessons, playtime, breaks, and meals.</li>
+                    <li>Monitored, recorded, and reported on children's development.</li>
+                    <li>Collaborated with colleagues on comprehensive lesson plans and promoted social skills development.</li>
+                    <li>Managed inventory of classroom materials and facilitated diverse lessons.</li>
+                    <li>Managed social media platforms.</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Work experience details - Aupair -->
+        <div class="work-entry">
+            <h3>Aupair</h3>
+            <p>Duration: 10/2023 - 12/2023</p>
+            <button onclick="toggleWorkExperience('aupair1')">More/Less</button>
+            <div id="work-experience-details-aupair1" style="display: none;">
+                <p class="description">Description:</p>
+                <ul>
+                    <li>Provided short-term assistance to a family with four children, assisting with transportation, homework, 
+                        and educational activities.</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Work experience details - Aupair -->
+        <div class="work-entry">
+            <h3>Aupair</h3>
+            <p>Duration: 04/2020 - 07/2020</p>
+            <button onclick="toggleWorkExperience('aupair2')">More/Less</button>
+            <div id="work-experience-details-aupair2" style="display: none;">
+                <p class="description">Description:</p>
+                <ul>
+                    <li>Supported a family with twin 6-year-old girls during lockdown. Facilitated remote learning, 
+                        assisted with homework, and organized educational activities.</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Work experience details - Bartender -->
+        <div class="work-entry">
+            <h3>Bartender</h3>
+            <p>Duration: 08/2009 - 12/2012</p>
+            <button onclick="toggleWorkExperience('bartender')">More/Less</button>
+            <div id="work-experience-details-bartender" style="display: none;">
+                <p class="description">Description:</p>
+                <ul>    
+                    <li>Proficient in POS platforms for transactions.</li>
+                    <li>Managed stock inventory efficiently.</li>
+                    <li>Applied strong time management skills to complete tasks swiftly. </li>
+                    <li>Worked collaboratively in a fast-paced restaurant environment, emphasizing sales and customer 
+                        satisfaction.</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Work experience details - Event Coordinator -->
+        <div class="work-entry">
+            <h3>Event Coordinator</h3>
+            <p>Duration: 01/2009 - 12/2009</p>
+            <button onclick="toggleWorkExperience('coordinator')">More/Less</button>
+            <div id="work-experience-details-coordinator" style="display: none;">
+                <p class="description">Description:</p>
+                <ul>    
+                    <li>Ensured the success of events through meticulous planning and execution, managing both onsite 
+                        logistics and remote coordination</li>
+                    <li>Researched and secured competitive prices for venues, hotels, flights, entertainment and 
+                        branding</li>
+                    <li>I also served as the Personal Assistant to the Event Planner, providing support in various tasks.</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Work experience details - Manager/Bartender -->
+        <div class="work-entry">
+            <h3>Manager/Bartender</h3>
+            <p>Duration: 01/2006 - 12/2007</p>
+            <button class="manager" onclick="toggleWorkExperience('manager')">More/Less</button>
+            <div id="work-experience-details-manager" style="display: none;">
+                <p class="description">Description:</p>
+                <ul>    
+                    <li>Managed stock of both kitchen and bar, managed orders, and staff in a dynamic pub environment.</li>
+                    <li>Operated POS platform for transactions and cash handling.</li>
+                    <li>Contributed signficantly to overall management, overseeing entertainer bookings, payments, and 
+                        contributing to a positive, customer-centric atmosphere, beyond regular bartending duties</li>
+                    <li class="last-line">Overseeing staff, I handled responsibilities ranging from hiring, onboarding, and training to 
+                        ensuring adherence to hygiene standards</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section with copyright information -->
+    <footer>
+        <p>&copy; 2024 Bronwyn Barnes. All rights reserved.</p>
+    </footer>
+
+    <!-- Script for toggling sections -->
+    <!-- JavaScript for toggling sections -->
+    <script>
+        // Function to toggle the display of a specific work entry
+        function toggleWorkExperience(jobId) {
+            toggleSection('work-experience-details-' + jobId);
+        }
+
+        // Function to toggle the display of a section
+        function toggleEducation() {
+            toggleSection('education-details')
+        }
+
+        // Function to toggle the display of the second set of skills
+        function toggleSkills() {
+            toggleSection('skills-details');
+        }
+        // Function to toggle the display of the second set of skills
+        function toggleSkills2() {
+            toggleSection('skills2-details');
+        }
+
+        // Function to toggle the display of a section
+        function toggleSection(sectionId) {
+            var section = document.getElementById(sectionId);
+            if (section.style.display === 'none' || section.style.display === '') {
+                section.style.display = 'block';
+            } else {
+                section.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
